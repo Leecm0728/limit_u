@@ -1,0 +1,1415 @@
+{
+  "version": "2.0.0",
+  "traits": [
+    {
+      "id": "analytical",
+      "label": "분석력",
+      "base": 50
+    },
+    {
+      "id": "creativity",
+      "label": "창의성",
+      "base": 50
+    },
+    {
+      "id": "persistence",
+      "label": "지속력",
+      "base": 50
+    },
+    {
+      "id": "stability",
+      "label": "안정지향",
+      "base": 50
+    },
+    {
+      "id": "independence",
+      "label": "독립성",
+      "base": 50
+    },
+    {
+      "id": "leadership",
+      "label": "리더십",
+      "base": 50
+    },
+    {
+      "id": "social_influence",
+      "label": "사회적영향",
+      "base": 50
+    },
+    {
+      "id": "communication",
+      "label": "소통",
+      "base": 50
+    },
+    {
+      "id": "risk_tolerance",
+      "label": "위험감수",
+      "base": 50
+    },
+    {
+      "id": "money_orientation",
+      "label": "소득지향",
+      "base": 50
+    },
+    {
+      "id": "achievement_orientation",
+      "label": "성취지향",
+      "base": 50
+    },
+    {
+      "id": "recognition_need",
+      "label": "인정욕구",
+      "base": 50
+    },
+    {
+      "id": "emotional_sensitivity",
+      "label": "정서민감",
+      "base": 50
+    },
+    {
+      "id": "relationship_stability",
+      "label": "관계안정",
+      "base": 50
+    },
+    {
+      "id": "adaptability",
+      "label": "적응력",
+      "base": 50
+    },
+    {
+      "id": "career_mobility",
+      "label": "이동성",
+      "base": 50
+    },
+    {
+      "id": "entrepreneurship",
+      "label": "기업가성",
+      "base": 50
+    },
+    {
+      "id": "organization_fit",
+      "label": "조직적합",
+      "base": 50
+    },
+    {
+      "id": "execution",
+      "label": "실행력",
+      "base": 50
+    },
+    {
+      "id": "planning",
+      "label": "계획성",
+      "base": 50
+    },
+    {
+      "id": "responsibility",
+      "label": "책임감",
+      "base": 50
+    },
+    {
+      "id": "persuasion",
+      "label": "설득력",
+      "base": 50
+    },
+    {
+      "id": "learning_speed",
+      "label": "학습속도",
+      "base": 50
+    },
+    {
+      "id": "specialist_orientation",
+      "label": "전문가지향",
+      "base": 50
+    },
+    {
+      "id": "management_orientation",
+      "label": "관리지향",
+      "base": 50
+    },
+    {
+      "id": "resilience",
+      "label": "회복력",
+      "base": 50
+    },
+    {
+      "id": "competition",
+      "label": "경쟁성",
+      "base": 50
+    },
+    {
+      "id": "external_visibility",
+      "label": "외부가시성",
+      "base": 50
+    },
+    {
+      "id": "networking",
+      "label": "네트워킹",
+      "base": 50
+    },
+    {
+      "id": "decision_speed",
+      "label": "판단속도",
+      "base": 50
+    }
+  ],
+  "occupations": [
+    {
+      "id": "it",
+      "label": "Software / IT",
+      "profile": {
+        "analytical": 80,
+        "specialist_orientation": 80,
+        "execution": 80
+      }
+    },
+    {
+      "id": "engineering",
+      "label": "Engineering",
+      "profile": {
+        "analytical": 80,
+        "planning": 80,
+        "responsibility": 80
+      }
+    },
+    {
+      "id": "product",
+      "label": "Product / Planning",
+      "profile": {
+        "planning": 80,
+        "communication": 80,
+        "execution": 80
+      }
+    },
+    {
+      "id": "sales",
+      "label": "Sales",
+      "profile": {
+        "persuasion": 80,
+        "networking": 80,
+        "competition": 80
+      }
+    },
+    {
+      "id": "marketing",
+      "label": "Marketing",
+      "profile": {
+        "creativity": 80,
+        "social_influence": 80,
+        "analytical": 80
+      }
+    },
+    {
+      "id": "finance",
+      "label": "Finance",
+      "profile": {
+        "analytical": 80,
+        "stability": 80,
+        "responsibility": 80
+      }
+    },
+    {
+      "id": "consulting",
+      "label": "Consulting",
+      "profile": {
+        "persuasion": 80,
+        "analytical": 80,
+        "external_visibility": 80
+      }
+    },
+    {
+      "id": "research",
+      "label": "Research",
+      "profile": {
+        "learning_speed": 80,
+        "persistence": 80,
+        "specialist_orientation": 80
+      }
+    },
+    {
+      "id": "education",
+      "label": "Education",
+      "profile": {
+        "communication": 80,
+        "responsibility": 80,
+        "persistence": 80
+      }
+    },
+    {
+      "id": "healthcare",
+      "label": "Healthcare",
+      "profile": {
+        "responsibility": 80,
+        "emotional_sensitivity": 80,
+        "stability": 80
+      }
+    },
+    {
+      "id": "public",
+      "label": "Public Sector",
+      "profile": {
+        "organization_fit": 80,
+        "stability": 80,
+        "planning": 80
+      }
+    },
+    {
+      "id": "manufacturing",
+      "label": "Manufacturing",
+      "profile": {
+        "execution": 80,
+        "responsibility": 80,
+        "persistence": 80
+      }
+    },
+    {
+      "id": "logistics",
+      "label": "Logistics",
+      "profile": {
+        "planning": 80,
+        "execution": 80,
+        "decision_speed": 80
+      }
+    },
+    {
+      "id": "design",
+      "label": "Design",
+      "profile": {
+        "creativity": 80,
+        "specialist_orientation": 80,
+        "adaptability": 80
+      }
+    },
+    {
+      "id": "creative",
+      "label": "Creative",
+      "profile": {
+        "creativity": 80,
+        "independence": 80,
+        "external_visibility": 80
+      }
+    },
+    {
+      "id": "legal",
+      "label": "Legal",
+      "profile": {
+        "analytical": 80,
+        "persuasion": 80,
+        "responsibility": 80
+      }
+    },
+    {
+      "id": "business",
+      "label": "Entrepreneurship",
+      "profile": {
+        "entrepreneurship": 80,
+        "risk_tolerance": 80,
+        "leadership": 80
+      }
+    },
+    {
+      "id": "operations",
+      "label": "Operations",
+      "profile": {
+        "organization_fit": 80,
+        "planning": 80,
+        "execution": 80
+      }
+    },
+    {
+      "id": "hr",
+      "label": "HR",
+      "profile": {
+        "communication": 80,
+        "relationship_stability": 80,
+        "management_orientation": 80
+      }
+    },
+    {
+      "id": "service",
+      "label": "Service",
+      "profile": {
+        "communication": 80,
+        "adaptability": 80,
+        "resilience": 80
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "id": "map_1",
+      "feature": "experience",
+      "trait": "execution",
+      "weight": 26
+    },
+    {
+      "id": "map_2",
+      "feature": "experience",
+      "trait": "specialist_orientation",
+      "weight": 28
+    },
+    {
+      "id": "map_3",
+      "feature": "experience",
+      "trait": "responsibility",
+      "weight": 15
+    },
+    {
+      "id": "map_4",
+      "feature": "experience",
+      "trait": "persistence",
+      "weight": 15
+    },
+    {
+      "id": "map_5",
+      "feature": "management",
+      "trait": "leadership",
+      "weight": 40
+    },
+    {
+      "id": "map_6",
+      "feature": "management",
+      "trait": "management_orientation",
+      "weight": 35
+    },
+    {
+      "id": "map_7",
+      "feature": "management",
+      "trait": "persuasion",
+      "weight": 20
+    },
+    {
+      "id": "map_8",
+      "feature": "visibility",
+      "trait": "external_visibility",
+      "weight": 45
+    },
+    {
+      "id": "map_9",
+      "feature": "visibility",
+      "trait": "social_influence",
+      "weight": 25
+    },
+    {
+      "id": "map_10",
+      "feature": "network",
+      "trait": "networking",
+      "weight": 35
+    },
+    {
+      "id": "map_11",
+      "feature": "network",
+      "trait": "communication",
+      "weight": 20
+    },
+    {
+      "id": "map_12",
+      "feature": "learning",
+      "trait": "learning_speed",
+      "weight": 35
+    },
+    {
+      "id": "map_13",
+      "feature": "learning",
+      "trait": "adaptability",
+      "weight": 20
+    },
+    {
+      "id": "map_14",
+      "feature": "runway",
+      "trait": "stability",
+      "weight": 25
+    },
+    {
+      "id": "map_15",
+      "feature": "business",
+      "trait": "entrepreneurship",
+      "weight": 35
+    },
+    {
+      "id": "map_16",
+      "feature": "business",
+      "trait": "risk_tolerance",
+      "weight": 20
+    },
+    {
+      "id": "map_17",
+      "feature": "mobility",
+      "trait": "career_mobility",
+      "weight": 25
+    },
+    {
+      "id": "map_18",
+      "feature": "education",
+      "trait": "analytical",
+      "weight": 12
+    },
+    {
+      "id": "map_19",
+      "feature": "level",
+      "trait": "achievement_orientation",
+      "weight": 15
+    },
+    {
+      "id": "map_20",
+      "feature": "experience",
+      "trait": "planning",
+      "weight": 12
+    },
+    {
+      "id": "map_21",
+      "feature": "self_analytical",
+      "trait": "analytical",
+      "weight": 30
+    },
+    {
+      "id": "map_22",
+      "feature": "self_creativity",
+      "trait": "creativity",
+      "weight": 30
+    },
+    {
+      "id": "map_23",
+      "feature": "self_persistence",
+      "trait": "persistence",
+      "weight": 30
+    },
+    {
+      "id": "map_24",
+      "feature": "self_stability",
+      "trait": "stability",
+      "weight": 30
+    },
+    {
+      "id": "map_25",
+      "feature": "self_independence",
+      "trait": "independence",
+      "weight": 30
+    },
+    {
+      "id": "map_26",
+      "feature": "self_leadership",
+      "trait": "leadership",
+      "weight": 30
+    },
+    {
+      "id": "map_27",
+      "feature": "self_social_influence",
+      "trait": "social_influence",
+      "weight": 30
+    },
+    {
+      "id": "map_28",
+      "feature": "self_communication",
+      "trait": "communication",
+      "weight": 30
+    },
+    {
+      "id": "map_29",
+      "feature": "self_risk_tolerance",
+      "trait": "risk_tolerance",
+      "weight": 30
+    },
+    {
+      "id": "map_30",
+      "feature": "self_money_orientation",
+      "trait": "money_orientation",
+      "weight": 30
+    },
+    {
+      "id": "map_31",
+      "feature": "self_achievement_orientation",
+      "trait": "achievement_orientation",
+      "weight": 30
+    },
+    {
+      "id": "map_32",
+      "feature": "self_recognition_need",
+      "trait": "recognition_need",
+      "weight": 30
+    },
+    {
+      "id": "map_33",
+      "feature": "self_emotional_sensitivity",
+      "trait": "emotional_sensitivity",
+      "weight": 30
+    },
+    {
+      "id": "map_34",
+      "feature": "self_relationship_stability",
+      "trait": "relationship_stability",
+      "weight": 30
+    },
+    {
+      "id": "map_35",
+      "feature": "self_adaptability",
+      "trait": "adaptability",
+      "weight": 30
+    },
+    {
+      "id": "map_36",
+      "feature": "self_career_mobility",
+      "trait": "career_mobility",
+      "weight": 30
+    },
+    {
+      "id": "map_37",
+      "feature": "self_entrepreneurship",
+      "trait": "entrepreneurship",
+      "weight": 30
+    },
+    {
+      "id": "map_38",
+      "feature": "self_organization_fit",
+      "trait": "organization_fit",
+      "weight": 30
+    },
+    {
+      "id": "map_39",
+      "feature": "self_execution",
+      "trait": "execution",
+      "weight": 30
+    },
+    {
+      "id": "map_40",
+      "feature": "self_planning",
+      "trait": "planning",
+      "weight": 30
+    },
+    {
+      "id": "map_41",
+      "feature": "self_responsibility",
+      "trait": "responsibility",
+      "weight": 30
+    },
+    {
+      "id": "map_42",
+      "feature": "self_persuasion",
+      "trait": "persuasion",
+      "weight": 30
+    },
+    {
+      "id": "map_43",
+      "feature": "self_learning_speed",
+      "trait": "learning_speed",
+      "weight": 30
+    },
+    {
+      "id": "map_44",
+      "feature": "self_specialist_orientation",
+      "trait": "specialist_orientation",
+      "weight": 30
+    },
+    {
+      "id": "map_45",
+      "feature": "self_management_orientation",
+      "trait": "management_orientation",
+      "weight": 30
+    },
+    {
+      "id": "map_46",
+      "feature": "self_resilience",
+      "trait": "resilience",
+      "weight": 30
+    },
+    {
+      "id": "map_47",
+      "feature": "self_competition",
+      "trait": "competition",
+      "weight": 30
+    },
+    {
+      "id": "map_48",
+      "feature": "self_external_visibility",
+      "trait": "external_visibility",
+      "weight": 30
+    },
+    {
+      "id": "map_49",
+      "feature": "self_networking",
+      "trait": "networking",
+      "weight": 30
+    },
+    {
+      "id": "map_50",
+      "feature": "self_decision_speed",
+      "trait": "decision_speed",
+      "weight": 30
+    },
+    {
+      "id": "map_51",
+      "feature": "head_line_length",
+      "trait": "analytical",
+      "weight": 5
+    },
+    {
+      "id": "map_52",
+      "feature": "heart_line_length",
+      "trait": "communication",
+      "weight": 4
+    },
+    {
+      "id": "map_53",
+      "feature": "life_line_length",
+      "trait": "persistence",
+      "weight": 4
+    },
+    {
+      "id": "map_54",
+      "feature": "fate_line_strength",
+      "trait": "execution",
+      "weight": 4
+    },
+    {
+      "id": "map_55",
+      "feature": "wood",
+      "trait": "creativity",
+      "weight": 3
+    },
+    {
+      "id": "map_56",
+      "feature": "fire",
+      "trait": "social_influence",
+      "weight": 3
+    },
+    {
+      "id": "map_57",
+      "feature": "earth",
+      "trait": "stability",
+      "weight": 3
+    },
+    {
+      "id": "map_58",
+      "feature": "metal",
+      "trait": "planning",
+      "weight": 3
+    },
+    {
+      "id": "map_59",
+      "feature": "water",
+      "trait": "analytical",
+      "weight": 3
+    },
+    {
+      "id": "map_60",
+      "feature": "head_line_curve",
+      "trait": "adaptability",
+      "weight": 3
+    }
+  ],
+  "rules": [
+    {
+      "id": "ENTRY",
+      "priority": 100,
+      "when": {
+        "all": [
+          {
+            "field": "status",
+            "op": "eq",
+            "value": "unemployed"
+          }
+        ]
+      },
+      "actionIds": [
+        "BUILD_SKILL",
+        "GAIN_EXPERIENCE"
+      ],
+      "ceiling": 3,
+      "templateId": "ENTRY"
+    },
+    {
+      "id": "INVISIBLE_EXPERT",
+      "priority": 99,
+      "when": {
+        "all": [
+          {
+            "field": "leadership",
+            "op": "lt",
+            "value": 45
+          },
+          {
+            "field": "external_visibility",
+            "op": "lt",
+            "value": 40
+          },
+          {
+            "field": "execution",
+            "op": "gte",
+            "value": 65
+          }
+        ]
+      },
+      "actionIds": [
+        "BUILD_LEADERSHIP_EXPERIENCE",
+        "BUILD_EXTERNAL_VISIBILITY"
+      ],
+      "ceiling": 3,
+      "templateId": "INVISIBLE_EXPERT"
+    },
+    {
+      "id": "MANAGER_WINDOW",
+      "priority": 98,
+      "when": {
+        "all": [
+          {
+            "field": "age",
+            "op": "gte",
+            "value": 40
+          },
+          {
+            "field": "experienceYears",
+            "op": "gte",
+            "value": 10
+          },
+          {
+            "field": "leadership",
+            "op": "lt",
+            "value": 50
+          }
+        ]
+      },
+      "actionIds": [
+        "BUILD_LEADERSHIP_EXPERIENCE"
+      ],
+      "ceiling": 3,
+      "templateId": "MANAGER_WINDOW"
+    },
+    {
+      "id": "LOW_LEAD",
+      "priority": 97,
+      "when": {
+        "all": [
+          {
+            "field": "leadership",
+            "op": "lt",
+            "value": 45
+          }
+        ]
+      },
+      "actionIds": [
+        "BUILD_LEADERSHIP_EXPERIENCE"
+      ],
+      "ceiling": 3,
+      "templateId": "LOW_LEAD"
+    },
+    {
+      "id": "LOW_VISIBLE",
+      "priority": 96,
+      "when": {
+        "all": [
+          {
+            "field": "external_visibility",
+            "op": "lt",
+            "value": 45
+          }
+        ]
+      },
+      "actionIds": [
+        "BUILD_EXTERNAL_VISIBILITY"
+      ],
+      "ceiling": null,
+      "templateId": "LOW_VISIBLE"
+    },
+    {
+      "id": "NO_RUNWAY",
+      "priority": 95,
+      "when": {
+        "all": [
+          {
+            "field": "runwayMonths",
+            "op": "lt",
+            "value": 6
+          }
+        ]
+      },
+      "actionIds": [
+        "BUILD_RUNWAY"
+      ],
+      "ceiling": null,
+      "templateId": "NO_RUNWAY"
+    },
+    {
+      "id": "BUSINESS",
+      "priority": 94,
+      "when": {
+        "all": [
+          {
+            "field": "concern",
+            "op": "eq",
+            "value": "창업"
+          }
+        ]
+      },
+      "actionIds": [
+        "VALIDATE_BUSINESS",
+        "BUILD_RUNWAY"
+      ],
+      "ceiling": null,
+      "templateId": "BUSINESS"
+    },
+    {
+      "id": "MOVE",
+      "priority": 93,
+      "when": {
+        "all": [
+          {
+            "field": "concern",
+            "op": "eq",
+            "value": "이직"
+          }
+        ]
+      },
+      "actionIds": [
+        "DOCUMENT_IMPACT",
+        "BUILD_EXTERNAL_VISIBILITY"
+      ],
+      "ceiling": null,
+      "templateId": "MOVE"
+    },
+    {
+      "id": "PROMOTION",
+      "priority": 92,
+      "when": {
+        "all": [
+          {
+            "field": "concern",
+            "op": "eq",
+            "value": "승진"
+          }
+        ]
+      },
+      "actionIds": [
+        "BUILD_LEADERSHIP_EXPERIENCE",
+        "NEGOTIATE"
+      ],
+      "ceiling": null,
+      "templateId": "PROMOTION"
+    },
+    {
+      "id": "NETWORK",
+      "priority": 91,
+      "when": {
+        "all": [
+          {
+            "field": "networking",
+            "op": "lt",
+            "value": 50
+          }
+        ]
+      },
+      "actionIds": [
+        "BUILD_NETWORK"
+      ],
+      "ceiling": null,
+      "templateId": "NETWORK"
+    },
+    {
+      "id": "LEARNING",
+      "priority": 90,
+      "when": {
+        "all": [
+          {
+            "field": "learning_speed",
+            "op": "lt",
+            "value": 50
+          }
+        ]
+      },
+      "actionIds": [
+        "LEARN"
+      ],
+      "ceiling": null,
+      "templateId": "LEARNING"
+    },
+    {
+      "id": "JUNIOR",
+      "priority": 89,
+      "when": {
+        "all": [
+          {
+            "field": "experienceYears",
+            "op": "between",
+            "value": [
+              0,
+              2
+            ]
+          }
+        ]
+      },
+      "actionIds": [
+        "GAIN_EXPERIENCE"
+      ],
+      "ceiling": null,
+      "templateId": "JUNIOR"
+    },
+    {
+      "id": "SENIOR",
+      "priority": 88,
+      "when": {
+        "all": [
+          {
+            "field": "experienceYears",
+            "op": "gte",
+            "value": 7
+          }
+        ]
+      },
+      "actionIds": [
+        "DOCUMENT_IMPACT"
+      ],
+      "ceiling": null,
+      "templateId": "SENIOR"
+    },
+    {
+      "id": "IT",
+      "priority": 87,
+      "when": {
+        "all": [
+          {
+            "field": "occupation",
+            "op": "eq",
+            "value": "it"
+          }
+        ]
+      },
+      "actionIds": [
+        "BUILD_SKILL"
+      ],
+      "ceiling": null,
+      "templateId": "IT"
+    },
+    {
+      "id": "PRODUCT",
+      "priority": 86,
+      "when": {
+        "all": [
+          {
+            "field": "occupation",
+            "op": "eq",
+            "value": "product"
+          }
+        ]
+      },
+      "actionIds": [
+        "BUILD_LEADERSHIP_EXPERIENCE"
+      ],
+      "ceiling": null,
+      "templateId": "PRODUCT"
+    },
+    {
+      "id": "STUDENT",
+      "priority": 85,
+      "when": {
+        "all": [
+          {
+            "field": "status",
+            "op": "eq",
+            "value": "student"
+          }
+        ]
+      },
+      "actionIds": [
+        "GAIN_EXPERIENCE"
+      ],
+      "ceiling": null,
+      "templateId": "STUDENT"
+    },
+    {
+      "id": "FREELANCE",
+      "priority": 84,
+      "when": {
+        "all": [
+          {
+            "field": "status",
+            "op": "eq",
+            "value": "freelance"
+          }
+        ]
+      },
+      "actionIds": [
+        "BUILD_NETWORK",
+        "BUILD_RUNWAY"
+      ],
+      "ceiling": null,
+      "templateId": "FREELANCE"
+    },
+    {
+      "id": "INCOME",
+      "priority": 83,
+      "when": {
+        "all": [
+          {
+            "field": "concern",
+            "op": "eq",
+            "value": "소득"
+          }
+        ]
+      },
+      "actionIds": [
+        "NEGOTIATE"
+      ],
+      "ceiling": null,
+      "templateId": "INCOME"
+    },
+    {
+      "id": "TRANSITION",
+      "priority": 82,
+      "when": {
+        "all": [
+          {
+            "field": "concern",
+            "op": "in",
+            "value": [
+              "커리어 전환",
+              "퇴직"
+            ]
+          }
+        ]
+      },
+      "actionIds": [
+        "BUILD_SKILL",
+        "BUILD_RUNWAY"
+      ],
+      "ceiling": null,
+      "templateId": "TRANSITION"
+    },
+    {
+      "id": "LEADER",
+      "priority": 81,
+      "when": {
+        "all": [
+          {
+            "field": "leadership",
+            "op": "gte",
+            "value": 65
+          },
+          {
+            "field": "external_visibility",
+            "op": "gte",
+            "value": 60
+          }
+        ]
+      },
+      "actionIds": [
+        "DOCUMENT_IMPACT"
+      ],
+      "ceiling": null,
+      "templateId": "LEADER"
+    }
+  ],
+  "actions": [
+    {
+      "id": "BUILD_LEADERSHIP_EXPERIENCE",
+      "title": "작은 팀의 결과를 책임지세요.",
+      "detail": "30일 안에 3명 규모 프로젝트를 제안하고 역할과 마감일을 문서화하세요.",
+      "trait": "leadership",
+      "delta": 18
+    },
+    {
+      "id": "BUILD_EXTERNAL_VISIBILITY",
+      "title": "성과를 회사 밖으로 꺼내세요.",
+      "detail": "14일 안에 민감정보를 제거한 문제·해결·수치 사례를 1편 공개하세요.",
+      "trait": "external_visibility",
+      "delta": 20
+    },
+    {
+      "id": "BUILD_SKILL",
+      "title": "직무를 하나 고르고 증거를 만드세요.",
+      "detail": "30일 안에 목표 공고 10개를 비교하고 공통 기술로 결과물 1개를 완성하세요.",
+      "trait": "specialist_orientation",
+      "delta": 15
+    },
+    {
+      "id": "GAIN_EXPERIENCE",
+      "title": "지원보다 먼저 작은 실무를 완주하세요.",
+      "detail": "6주 안에 실제 사용자가 있는 프로젝트나 유급 단기 업무를 완수하세요.",
+      "trait": "execution",
+      "delta": 15
+    },
+    {
+      "id": "VALIDATE_BUSINESS",
+      "title": "퇴사 전에 고객부터 확인하세요.",
+      "detail": "2주 동안 잠재 고객 10명을 인터뷰하고 유료 의향 3건을 확인하세요.",
+      "trait": "entrepreneurship",
+      "delta": 12
+    },
+    {
+      "id": "BUILD_RUNWAY",
+      "title": "선택할 수 있는 생활비를 확보하세요.",
+      "detail": "이번 주 고정지출을 정리하고 6개월 비상자금 계획을 세우세요.",
+      "trait": "stability",
+      "delta": 12
+    },
+    {
+      "id": "DOCUMENT_IMPACT",
+      "title": "업무량 대신 결과를 기록하세요.",
+      "detail": "이번 주 성과 3건을 전후 수치와 담당 범위로 정리하세요.",
+      "trait": "achievement_orientation",
+      "delta": 10
+    },
+    {
+      "id": "NEGOTIATE",
+      "title": "협상 자료를 만드세요.",
+      "detail": "30일 안에 시장 공고 10개와 본인 성과를 1장으로 정리하세요.",
+      "trait": "persuasion",
+      "delta": 12
+    },
+    {
+      "id": "BUILD_NETWORK",
+      "title": "연락할 사람을 만드세요.",
+      "detail": "매주 동종 직무 1명과 업무 이야기를 나누고 배운 점을 기록하세요.",
+      "trait": "networking",
+      "delta": 12
+    },
+    {
+      "id": "LEARN",
+      "title": "학습을 일정에 고정하세요.",
+      "detail": "4주간 주 3시간을 배정하고 매주 결과물로 검증하세요.",
+      "trait": "learning_speed",
+      "delta": 10
+    },
+    {
+      "id": "ACTION_11",
+      "title": "분석 가설을 검증하세요",
+      "detail": "앞으로 14일 동안 '분석 가설을 검증하기'를 실행하고 결과와 다음 수정 사항을 한 페이지로 기록하세요.",
+      "trait": "analytical",
+      "delta": 8
+    },
+    {
+      "id": "ACTION_12",
+      "title": "초안 3개를 비교하세요",
+      "detail": "앞으로 14일 동안 '초안 3개를 비교하기'를 실행하고 결과와 다음 수정 사항을 한 페이지로 기록하세요.",
+      "trait": "creativity",
+      "delta": 8
+    },
+    {
+      "id": "ACTION_13",
+      "title": "완료 기준을 정하세요",
+      "detail": "앞으로 14일 동안 '완료 기준을 정하기'를 실행하고 결과와 다음 수정 사항을 한 페이지로 기록하세요.",
+      "trait": "persistence",
+      "delta": 8
+    },
+    {
+      "id": "ACTION_14",
+      "title": "혼자 결정할 범위를 정하세요",
+      "detail": "앞으로 14일 동안 '혼자 결정할 범위를 정하기'를 실행하고 결과와 다음 수정 사항을 한 페이지로 기록하세요.",
+      "trait": "stability",
+      "delta": 8
+    },
+    {
+      "id": "ACTION_15",
+      "title": "발표를 녹화하세요",
+      "detail": "앞으로 14일 동안 '발표를 녹화하기'를 실행하고 결과와 다음 수정 사항을 한 페이지로 기록하세요.",
+      "trait": "independence",
+      "delta": 8
+    },
+    {
+      "id": "ACTION_16",
+      "title": "회의 결론을 문서화하세요",
+      "detail": "앞으로 14일 동안 '회의 결론을 문서화하기'를 실행하고 결과와 다음 수정 사항을 한 페이지로 기록하세요.",
+      "trait": "leadership",
+      "delta": 8
+    },
+    {
+      "id": "ACTION_17",
+      "title": "위험 한도를 정하세요",
+      "detail": "앞으로 14일 동안 '위험 한도를 정하기'를 실행하고 결과와 다음 수정 사항을 한 페이지로 기록하세요.",
+      "trait": "social_influence",
+      "delta": 8
+    },
+    {
+      "id": "ACTION_18",
+      "title": "소득원을 점검하세요",
+      "detail": "앞으로 14일 동안 '소득원을 점검하기'를 실행하고 결과와 다음 수정 사항을 한 페이지로 기록하세요.",
+      "trait": "communication",
+      "delta": 8
+    },
+    {
+      "id": "ACTION_19",
+      "title": "피드백을 요청하세요",
+      "detail": "앞으로 14일 동안 '피드백을 요청하기'를 실행하고 결과와 다음 수정 사항을 한 페이지로 기록하세요.",
+      "trait": "risk_tolerance",
+      "delta": 8
+    },
+    {
+      "id": "ACTION_20",
+      "title": "감정 기록을 남기세요",
+      "detail": "앞으로 14일 동안 '감정 기록을 남기기'를 실행하고 결과와 다음 수정 사항을 한 페이지로 기록하세요.",
+      "trait": "money_orientation",
+      "delta": 8
+    },
+    {
+      "id": "ACTION_21",
+      "title": "약속을 지키는 구조를 만드세요",
+      "detail": "앞으로 14일 동안 '약속을 지키는 구조를 만드기'를 실행하고 결과와 다음 수정 사항을 한 페이지로 기록하세요.",
+      "trait": "achievement_orientation",
+      "delta": 8
+    },
+    {
+      "id": "ACTION_22",
+      "title": "다른 직무를 체험하세요",
+      "detail": "앞으로 14일 동안 '다른 직무를 체험하기'를 실행하고 결과와 다음 수정 사항을 한 페이지로 기록하세요.",
+      "trait": "recognition_need",
+      "delta": 8
+    },
+    {
+      "id": "ACTION_23",
+      "title": "인수인계 문서를 만드세요",
+      "detail": "앞으로 14일 동안 '인수인계 문서를 만드기'를 실행하고 결과와 다음 수정 사항을 한 페이지로 기록하세요.",
+      "trait": "emotional_sensitivity",
+      "delta": 8
+    },
+    {
+      "id": "ACTION_24",
+      "title": "일정 오차를 측정하세요",
+      "detail": "앞으로 14일 동안 '일정 오차를 측정하기'를 실행하고 결과와 다음 수정 사항을 한 페이지로 기록하세요.",
+      "trait": "relationship_stability",
+      "delta": 8
+    },
+    {
+      "id": "ACTION_25",
+      "title": "책임 범위를 합의하세요",
+      "detail": "앞으로 14일 동안 '책임 범위를 합의하기'를 실행하고 결과와 다음 수정 사항을 한 페이지로 기록하세요.",
+      "trait": "adaptability",
+      "delta": 8
+    },
+    {
+      "id": "ACTION_26",
+      "title": "전문 주제를 좁히세요",
+      "detail": "앞으로 14일 동안 '전문 주제를 좁히기'를 실행하고 결과와 다음 수정 사항을 한 페이지로 기록하세요.",
+      "trait": "career_mobility",
+      "delta": 8
+    },
+    {
+      "id": "ACTION_27",
+      "title": "위임할 업무를 정하세요",
+      "detail": "앞으로 14일 동안 '위임할 업무를 정하기'를 실행하고 결과와 다음 수정 사항을 한 페이지로 기록하세요.",
+      "trait": "entrepreneurship",
+      "delta": 8
+    },
+    {
+      "id": "ACTION_28",
+      "title": "회복 시간을 확보하세요",
+      "detail": "앞으로 14일 동안 '회복 시간을 확보하기'를 실행하고 결과와 다음 수정 사항을 한 페이지로 기록하세요.",
+      "trait": "organization_fit",
+      "delta": 8
+    },
+    {
+      "id": "ACTION_29",
+      "title": "비교 기준을 정하세요",
+      "detail": "앞으로 14일 동안 '비교 기준을 정하기'를 실행하고 결과와 다음 수정 사항을 한 페이지로 기록하세요.",
+      "trait": "execution",
+      "delta": 8
+    },
+    {
+      "id": "ACTION_30",
+      "title": "결정 기한을 정하세요",
+      "detail": "앞으로 14일 동안 '결정 기한을 정하기'를 실행하고 결과와 다음 수정 사항을 한 페이지로 기록하세요.",
+      "trait": "planning",
+      "delta": 8
+    }
+  ],
+  "levels": [
+    {
+      "id": 1,
+      "label": "Junior"
+    },
+    {
+      "id": 2,
+      "label": "Professional"
+    },
+    {
+      "id": 3,
+      "label": "Senior"
+    },
+    {
+      "id": 4,
+      "label": "Team / Expert Lead"
+    },
+    {
+      "id": 5,
+      "label": "Executive / Principal"
+    }
+  ],
+  "products": [
+    {
+      "id": "career-basic",
+      "label": "Career Basic",
+      "price": 0,
+      "enabled": true
+    },
+    {
+      "id": "career-full",
+      "label": "Career Full",
+      "price": 9900,
+      "enabled": true
+    },
+    {
+      "id": "relationship",
+      "label": "Relationship",
+      "price": 0,
+      "enabled": false
+    },
+    {
+      "id": "life-full",
+      "label": "Life Full Report",
+      "price": 0,
+      "enabled": false
+    }
+  ],
+  "scenarioConfig": {
+    "levelGates": [
+      {
+        "level": 4,
+        "when": {
+          "field": "leadership",
+          "op": "gte",
+          "value": 50
+        }
+      },
+      {
+        "level": 5,
+        "when": {
+          "all": [
+            {
+              "field": "leadership",
+              "op": "gte",
+              "value": 65
+            },
+            {
+              "field": "external_visibility",
+              "op": "gte",
+              "value": 60
+            }
+          ]
+        }
+      }
+    ],
+    "baseCeiling": 3,
+    "improvedDelta": 1,
+    "aggressiveDelta": 2,
+    "criticalOffset": 2,
+    "retirementFloor": 55,
+    "retirementOffset": 14
+  },
+  "domainWeights": {
+    "career": {
+      "execution": 0.3,
+      "specialist_orientation": 0.25,
+      "leadership": 0.25,
+      "external_visibility": 0.2
+    },
+    "money": {
+      "money_orientation": 0.5,
+      "planning": 0.5
+    },
+    "relationship": {
+      "communication": 0.5,
+      "relationship_stability": 0.5
+    },
+    "business": {
+      "entrepreneurship": 0.4,
+      "risk_tolerance": 0.3,
+      "execution": 0.3
+    }
+  }
+}

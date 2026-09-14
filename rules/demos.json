@@ -1,0 +1,95 @@
+[
+  {
+    "asOf": "2026-09-14",
+    "birthTime": "12:00",
+    "gender": "unspecified",
+    "education": "university",
+    "incomeBand": "3000-5000",
+    "jobTitle": "",
+    "managementYears": 0,
+    "visibility": 1,
+    "network": 2,
+    "learningHours": 4,
+    "runwayMonths": 4,
+    "businessInterest": 2,
+    "concern": "직업선택",
+    "palm": {
+      "source": "demo",
+      "features": {
+        "head_line_length": 0.65,
+        "heart_line_length": 0.55,
+        "life_line_length": 0.7
+      }
+    },
+    "selfRatings": {},
+    "id": "A",
+    "name": "진입의 갈림길",
+    "birthDate": "1997-04-20",
+    "status": "unemployed",
+    "occupation": "it",
+    "experienceYears": 0,
+    "level": 1
+  },
+  {
+    "asOf": "2026-09-14",
+    "birthTime": "12:00",
+    "gender": "unspecified",
+    "education": "university",
+    "incomeBand": "3000-5000",
+    "jobTitle": "개발자",
+    "managementYears": 0,
+    "visibility": 1,
+    "network": 2,
+    "learningHours": 4,
+    "runwayMonths": 4,
+    "businessInterest": 2,
+    "concern": "이직",
+    "palm": {
+      "source": "demo",
+      "features": {
+        "head_line_length": 0.65,
+        "heart_line_length": 0.55,
+        "life_line_length": 0.7
+      }
+    },
+    "selfRatings": {},
+    "id": "B",
+    "name": "보이지 않는 시니어",
+    "birthDate": "1991-02-18",
+    "status": "employed",
+    "occupation": "it",
+    "experienceYears": 8,
+    "level": 3
+  },
+  {
+    "asOf": "2026-09-14",
+    "birthTime": "12:00",
+    "gender": "unspecified",
+    "education": "university",
+    "incomeBand": "3000-5000",
+    "jobTitle": "기획 / 관리",
+    "managementYears": 0,
+    "visibility": 1,
+    "network": 2,
+    "learningHours": 4,
+    "runwayMonths": 4,
+    "businessInterest": 2,
+    "concern": "승진",
+    "palm": {
+      "source": "demo",
+      "features": {
+        "head_line_length": 0.65,
+        "heart_line_length": 0.55,
+        "life_line_length": 0.7
+      }
+    },
+    "selfRatings": {},
+    "id": "C",
+    "name": "관리자로 넘어갈 때",
+    "birthDate": "1985-06-12",
+    "status": "employed",
+    "occupation": "product",
+    "experienceYears": 15,
+    "level": 3
+  }
+]

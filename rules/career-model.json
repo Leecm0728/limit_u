@@ -1,0 +1,288 @@
+{
+  "version": "2.0.0",
+  "occupations": [
+    {
+      "categoryCode": "IT_DEVELOPMENT",
+      "categoryLabel": "IT / 개발",
+      "legacyCode": "it",
+      "jobCode": "SOFTWARE_ENGINEER",
+      "jobLabel": "소프트웨어 개발",
+      "specialtyCode": "BACKEND_ENGINEER",
+      "specialtyLabel": "백엔드 개발자"
+    },
+    {
+      "categoryCode": "IT_DEVELOPMENT",
+      "categoryLabel": "IT / 개발",
+      "legacyCode": "it",
+      "jobCode": "SOFTWARE_ENGINEER",
+      "jobLabel": "소프트웨어 개발",
+      "specialtyCode": "FRONTEND_ENGINEER",
+      "specialtyLabel": "프론트엔드 개발자"
+    },
+    {
+      "categoryCode": "IT_DEVELOPMENT",
+      "categoryLabel": "IT / 개발",
+      "legacyCode": "it",
+      "jobCode": "SOFTWARE_ENGINEER",
+      "jobLabel": "소프트웨어 개발",
+      "specialtyCode": "DATA_ENGINEER",
+      "specialtyLabel": "데이터 엔지니어"
+    },
+    {
+      "categoryCode": "STRATEGY",
+      "categoryLabel": "기획 / 전략",
+      "legacyCode": "product",
+      "jobCode": "PLANNER",
+      "jobLabel": "기획",
+      "specialtyCode": "PRODUCT_PLANNER",
+      "specialtyLabel": "서비스 기획자"
+    },
+    {
+      "categoryCode": "STRATEGY",
+      "categoryLabel": "기획 / 전략",
+      "legacyCode": "product",
+      "jobCode": "PLANNER",
+      "jobLabel": "기획",
+      "specialtyCode": "STRATEGY_PLANNER",
+      "specialtyLabel": "전략 기획자"
+    },
+    {
+      "categoryCode": "SALES",
+      "categoryLabel": "영업",
+      "legacyCode": "sales",
+      "jobCode": "SALES_PROFESSIONAL",
+      "jobLabel": "영업",
+      "specialtyCode": "B2B_SALES",
+      "specialtyLabel": "기업 영업"
+    },
+    {
+      "categoryCode": "MARKETING",
+      "categoryLabel": "마케팅",
+      "legacyCode": "marketing",
+      "jobCode": "MARKETER",
+      "jobLabel": "마케팅",
+      "specialtyCode": "DIGITAL_MARKETER",
+      "specialtyLabel": "디지털 마케터"
+    },
+    {
+      "categoryCode": "DESIGN",
+      "categoryLabel": "디자인",
+      "legacyCode": "design",
+      "jobCode": "DESIGNER",
+      "jobLabel": "디자인",
+      "specialtyCode": "PRODUCT_DESIGNER",
+      "specialtyLabel": "프로덕트 디자이너"
+    },
+    {
+      "categoryCode": "SCM",
+      "categoryLabel": "물류 / SCM",
+      "legacyCode": "logistics",
+      "jobCode": "SCM_PROFESSIONAL",
+      "jobLabel": "물류",
+      "specialtyCode": "SCM_PLANNER",
+      "specialtyLabel": "SCM 담당자"
+    },
+    {
+      "categoryCode": "PRODUCTION",
+      "categoryLabel": "생산",
+      "legacyCode": "manufacturing",
+      "jobCode": "PRODUCTION_PROFESSIONAL",
+      "jobLabel": "생산",
+      "specialtyCode": "PRODUCTION_MANAGER",
+      "specialtyLabel": "생산 담당자"
+    },
+    {
+      "categoryCode": "QUALITY",
+      "categoryLabel": "품질",
+      "legacyCode": "engineering",
+      "jobCode": "QUALITY_ENGINEER",
+      "jobLabel": "품질 관리",
+      "specialtyCode": "QUALITY_SPECIALIST",
+      "specialtyLabel": "품질 담당자"
+    },
+    {
+      "categoryCode": "RND",
+      "categoryLabel": "연구개발",
+      "legacyCode": "research",
+      "jobCode": "RESEARCHER",
+      "jobLabel": "연구개발",
+      "specialtyCode": "RND_RESEARCHER",
+      "specialtyLabel": "연구개발 연구원"
+    },
+    {
+      "categoryCode": "ACCOUNTING",
+      "categoryLabel": "재무 / 회계",
+      "legacyCode": "finance",
+      "jobCode": "ACCOUNTANT",
+      "jobLabel": "재무 회계",
+      "specialtyCode": "FINANCIAL_ACCOUNTANT",
+      "specialtyLabel": "회계 담당자"
+    },
+    {
+      "categoryCode": "HR",
+      "categoryLabel": "인사 / 조직",
+      "legacyCode": "hr",
+      "jobCode": "HR_PROFESSIONAL",
+      "jobLabel": "인사",
+      "specialtyCode": "HR_MANAGER",
+      "specialtyLabel": "인사 담당자"
+    },
+    {
+      "categoryCode": "EDUCATION",
+      "categoryLabel": "교육",
+      "legacyCode": "education",
+      "jobCode": "EDUCATOR",
+      "jobLabel": "교육",
+      "specialtyCode": "TEACHER",
+      "specialtyLabel": "교육 전문가"
+    },
+    {
+      "categoryCode": "HEALTHCARE",
+      "categoryLabel": "의료",
+      "legacyCode": "healthcare",
+      "jobCode": "HEALTH_PROFESSIONAL",
+      "jobLabel": "의료",
+      "specialtyCode": "HEALTH_SPECIALIST",
+      "specialtyLabel": "의료 전문가"
+    },
+    {
+      "categoryCode": "FINANCIAL",
+      "categoryLabel": "금융",
+      "legacyCode": "finance",
+      "jobCode": "FINANCE_PROFESSIONAL",
+      "jobLabel": "금융",
+      "specialtyCode": "FINANCE_ANALYST",
+      "specialtyLabel": "금융 분석가"
+    },
+    {
+      "categoryCode": "PUBLIC",
+      "categoryLabel": "공공 / 행정",
+      "legacyCode": "public",
+      "jobCode": "PUBLIC_OFFICER",
+      "jobLabel": "공공 행정",
+      "specialtyCode": "ADMINISTRATOR",
+      "specialtyLabel": "행정 담당자"
+    },
+    {
+      "categoryCode": "PROFESSIONAL",
+      "categoryLabel": "전문직",
+      "legacyCode": "legal",
+      "jobCode": "PROFESSIONAL",
+      "jobLabel": "전문직",
+      "specialtyCode": "LEGAL_PROFESSIONAL",
+      "specialtyLabel": "법률 전문가"
+    },
+    {
+      "categoryCode": "SERVICE",
+      "categoryLabel": "서비스",
+      "legacyCode": "service",
+      "jobCode": "SERVICE_PROFESSIONAL",
+      "jobLabel": "서비스",
+      "specialtyCode": "SERVICE_SPECIALIST",
+      "specialtyLabel": "서비스 담당자"
+    },
+    {
+      "categoryCode": "SELF_EMPLOYED",
+      "categoryLabel": "자영업",
+      "legacyCode": "business",
+      "jobCode": "SELF_EMPLOYED",
+      "jobLabel": "자영업",
+      "specialtyCode": "SHOP_OWNER",
+      "specialtyLabel": "매장 운영자"
+    },
+    {
+      "categoryCode": "ENTREPRENEURSHIP",
+      "categoryLabel": "사업 / 창업",
+      "legacyCode": "business",
+      "jobCode": "BUSINESS_OWNER",
+      "jobLabel": "사업",
+      "specialtyCode": "FOUNDER",
+      "specialtyLabel": "창업자"
+    },
+    {
+      "categoryCode": "OTHER",
+      "categoryLabel": "기타",
+      "legacyCode": "operations",
+      "jobCode": "OTHER",
+      "jobLabel": "기타 / 직접 입력",
+      "specialtyCode": "OTHER",
+      "specialtyLabel": "기타 / 직접 입력"
+    }
+  ],
+  "roleLabels": {
+    "ENTRY": "업무를 배우며 수행하는 단계",
+    "INDEPENDENT_CONTRIBUTOR": "독립 실무자",
+    "KEY_CONTRIBUTOR": "핵심 실무자",
+    "LEAD": "프로젝트 / 소규모 팀 리드",
+    "TEAM_MANAGER": "팀 단위 관리 역할",
+    "ORG_LEADER": "여러 팀 / 조직 책임 역할",
+    "EXECUTIVE_BUSINESS": "임원 / 사업 책임 역할",
+    "NOT_APPLICABLE": "해당 없음"
+  },
+  "managementLabels": {
+    "NONE": "없음",
+    "PEER_MENTORING": "후배 / 동료 업무 지원",
+    "PROJECT_LEAD": "프로젝트 리더",
+    "TEAM_2_5": "2–5명 팀 리딩",
+    "TEAM_6_15": "6–15명 조직 관리",
+    "ORG_16_PLUS": "16명 이상 조직 관리",
+    "MULTI_TEAM": "여러 팀 / 조직 책임"
+  },
+  "roleStages": {
+    "ENTRY": 1,
+    "INDEPENDENT_CONTRIBUTOR": 2,
+    "KEY_CONTRIBUTOR": 3,
+    "LEAD": 4,
+    "TEAM_MANAGER": 4,
+    "ORG_LEADER": 5,
+    "EXECUTIVE_BUSINESS": 5,
+    "NOT_APPLICABLE": 1
+  },
+  "managementSignals": {
+    "NONE": -0.5,
+    "PEER_MENTORING": -0.25,
+    "PROJECT_LEAD": 0,
+    "TEAM_2_5": 0.2,
+    "TEAM_6_15": 0.5,
+    "ORG_16_PLUS": 0.8,
+    "MULTI_TEAM": 1
+  },
+  "trackWeights": {
+    "MANAGEMENT": {
+      "leadership": 0.4,
+      "management_orientation": 0.3,
+      "persuasion": 0.15,
+      "responsibility": 0.15
+    },
+    "EXPERT": {
+      "specialist_orientation": 0.4,
+      "execution": 0.3,
+      "learning_speed": 0.15,
+      "analytical": 0.15
+    }
+  },
+  "hybridGap": 8,
+  "stageLabels": {
+    "MANAGEMENT": [
+      "업무 진입 단계",
+      "독립 실무 역할",
+      "핵심 실무 역할",
+      "프로젝트 리드 ~ 팀장급 역할",
+      "조직 책임 ~ 사업 책임 역할"
+    ],
+    "EXPERT": [
+      "전문 업무 진입 단계",
+      "독립 전문 실무",
+      "선임·핵심 전문 실무",
+      "고급 전문 ~ 조직 대표 전문 역할",
+      "최상위 전문 영향력 역할"
+    ],
+    "HYBRID": [
+      "업무 진입 단계",
+      "독립 실무 역할",
+      "핵심 실무 ~ 선임 전문 역할",
+      "프로젝트 리드 ~ 상위 전문가 역할",
+      "조직 책임 ~ 최상위 전문 영향력 역할"
+    ]
+  }
+}
