@@ -59,7 +59,8 @@ describe("manual palm measurements", () => {
     expect(f.head_line_length).toBeCloseTo(0.75);
     expect(f.life_line_length).toBeUndefined();
   });
-  it("caps long traces without inventing other features", () =>
+  it("caps long traces and measures only the marked line", () =>
+    // A trace that doubles back has no chord, so curvature stays at zero.
     expect(
       measureLines({
         left_heart: [
@@ -68,5 +69,5 @@ describe("manual palm measurements", () => {
           { x: 0, y: 0 },
         ],
       }),
-    ).toEqual({ heart_line_length: 1 }));
+    ).toEqual({ heart_line_length: 1, heart_line_curve: 0 }));
 });

@@ -2,12 +2,15 @@
 import { useRef, useState } from "react";
 import type { Profile } from "@/domain/model";
 import { measureLines, type Point } from "@/domain/palm";
+import { detectPalmLines, type PalmDetection } from "@/domain/palm-vision";
 const names = [
   ["head", "두뇌선"],
   ["heart", "감정선"],
   ["life", "생명선"],
 ] as const;
 type Photo = { url: string; ratio: number };
+const confidenceLabel = (c: number) =>
+  c >= 0.45 ? "뚜렷함" : c >= 0.28 ? "보통" : "흐림";
 export function PalmInput({
   value,
   onChange,
@@ -19,6 +22,8 @@ export function PalmInput({
     [side, setSide] = useState("left"),
     [active, setActive] = useState("head"),
     [points, setPoints] = useState<Record<string, Point[]>>({}),
+    [detection, setDetection] = useState<Record<string, PalmDetection>>({}),
+    [busy, setBusy] = useState(false),
     [error, setError] = useState("");
   const canvas = useRef<HTMLCanvasElement>(null);
   const photo = photos[side];
@@ -46,7 +51,8 @@ export function PalmInput({
         setError("사진 비율을 확인하세요. 손바닥 부분을 잘라 주세요.");
         return;
       }
-      c.getContext("2d")!.drawImage(bitmap, 0, 0, c.width, c.height);
+      const context = c.getContext("2d")!;
+      context.drawImage(bitmap, 0, 0, c.width, c.height);
       bitmap.close();
       setPhotos((prev) => ({
         ...prev,
@@ -55,11 +61,26 @@ export function PalmInput({
           ratio: c.width / c.height,
         },
       }));
-      update(
-        Object.fromEntries(
-          Object.entries(points).filter(([key]) => !key.startsWith(side)),
-        ),
+      const cleared = Object.fromEntries(
+        Object.entries(points).filter(([key]) => !key.startsWith(side)),
       );
+      // Propose the creases, then let the user correct them. Never final on its own.
+      setBusy(true);
+      const found = detectPalmLines(
+        context.getImageData(0, 0, c.width, c.height),
+        side as "left" | "right",
+      );
+      setBusy(false);
+      setDetection((prev) => ({ ...prev, [side]: found }));
+      update({
+        ...cleared,
+        ...Object.fromEntries(
+          Object.entries(found.lines).map(([name, line]) => [
+            side + "_" + name.replace("_line", ""),
+            line.points,
+          ]),
+        ),
+      });
     } catch {
       setError("이미지를 읽지 못했습니다. 다른 사진을 선택하세요.");
     }
@@ -82,8 +103,9 @@ export function PalmInput({
   return (
     <div className="palm-input">
       <p>
-        사진을 손바닥 중심으로 잘라 선택한 뒤 주요 선을 따라 3~6개 점을 찍어
-        주세요. 양손을 각각 입력할 수 있습니다. 사진은 서버로 전송되지 않습니다.
+        손바닥이 화면에 꽉 차도록 찍으면 주요 선을 자동으로 표시합니다. 결과가
+        틀리면 직접 점을 찍어 고칠 수 있습니다. 양손을 각각 입력할 수 있으며,
+        사진은 이 기기를 벗어나지 않습니다.
       </p>
       <div className="segmented">
         {["left", "right"].map((s) => (
@@ -108,6 +130,33 @@ export function PalmInput({
         />
       </label>
       <canvas ref={canvas} hidden />
+      {busy && <p role="status">사진에서 손바닥과 선을 찾는 중…</p>}
+      {photo && detection[side] && (
+        <div className="detection-summary">
+          {detection[side].ok ? (
+            <>
+              <p>자동으로 표시했습니다. 틀린 곳은 점을 다시 찍어 고쳐 주세요.</p>
+              <ul>
+                {names.map(([id, label]) => {
+                  const line = detection[side].lines[id + "_line"];
+                  return (
+                    <li key={id}>
+                      {label}{" "}
+                      {line
+                        ? "자동 인식 · " + confidenceLabel(line.confidence)
+                        : "찾지 못함 · 직접 표시"}
+                    </li>
+                  );
+                })}
+              </ul>
+            </>
+          ) : (
+            <p role="alert">
+              {detection[side].reason} 직접 점을 찍어 표시할 수도 있습니다.
+            </p>
+          )}
+        </div>
+      )}
       {photo && (
         <>
           <div className="segmented">
@@ -173,15 +222,20 @@ export function PalmInput({
             <button
               type="button"
               className="text-link"
-              onClick={() =>
+              onClick={() => {
+                setDetection((prev) => {
+                  const next = { ...prev };
+                  delete next[side];
+                  return next;
+                });
                 update(
                   Object.fromEntries(
                     Object.entries(points).filter(([k]) => !k.startsWith(side)),
                   ),
-                )
-              }
+                );
+              }}
             >
-              현재 손 다시 표시
+              지우고 직접 표시
             </button>
           </div>
         </>
@@ -192,8 +246,9 @@ export function PalmInput({
           ? "Demo Palm Data (예시)"
           : value.source === "none"
             ? "손금 제외"
-            : `${Object.keys(value.features).length}개 길이 측정`}{" "}
-        · 자동 손 검출·깊이·분기 측정은 지원하지 않습니다.
+            : `${Object.keys(value.features).length}개 값 측정`}{" "}
+        · 사진에서 손바닥 위치와 주요 선의 길이·곡률만 추정합니다. 깊이·분기·의학적
+        판독은 지원하지 않습니다.
       </p>
       {error && <p role="alert">{error}</p>}
       <div className="button-row">

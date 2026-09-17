@@ -32,7 +32,7 @@ npm install; npm run dev; npm test; npm run lint; npm run typecheck; npm run bui
 
 ## Forbidden Patterns
 
-No hardcoded business rules in UI, paid AI APIs, committed secrets, unsafe any, duplicated business logic, fake automatic palm detection or unverified payment completion.
+No hardcoded business rules in UI, paid AI APIs, committed secrets, unsafe any, duplicated business logic, or unverified payment completion. Palm detection must report what it actually measured: propose lines for the user to confirm, show per-line confidence, and never claim depth, branching or medical reading.
 
 <!-- BEGIN:nextjs-agent-rules -->
 
